@@ -1,1 +1,1 @@
-# strava challanges
+# strava challenges
