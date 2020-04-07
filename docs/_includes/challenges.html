@@ -7,6 +7,8 @@
 <script>{% include jquery-3.4.1.min.js %}</script>
 <script>$(function() {
     $("iframe").each(function(index, element) {
-        console.log($(element).text());
+        element.load(function() {
+          console.log("iframe loaded");
+        });
     });
 });</script>
