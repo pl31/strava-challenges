@@ -1,5 +1,3 @@
-# strava challenges
-
 {% assign sorted_pages = site.pages | sort: 'url'  %}
 
 {% for page in sorted_pages %}
