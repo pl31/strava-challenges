@@ -1,7 +1,7 @@
 ---
-title: Wattkopf - Kategorie 3 Climbs
+title: Wattkopf - Kategorie 3 Anstiege
 data:
-  description: Alle Kategorie 3 Climbs
+  description: Kategorie 3 Anstiege
   segments: [ 14876347, 14876135, 4769693, 16234841 ]
 ---
 
