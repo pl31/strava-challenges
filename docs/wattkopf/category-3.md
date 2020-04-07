@@ -1,6 +1,7 @@
 ---
 title: Wattkopf - Kategorie 3 Climbs
-layout: challenge
 ---
+
+{% include footer.html %}
 
 This is the content of my page
