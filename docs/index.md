@@ -2,6 +2,6 @@
 
 {% for page in sorted_pages %}
 {% if page.title %}
-- [{{ page.title }}]({{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }})
+[{{ page.title }}]({{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }})<br/>
 {% endif %}
 {% endfor %}
