@@ -1,5 +1,6 @@
 ---
 title: Wattkopf - Kategorie 3 Climbs
+description: Alle Kategorie 3 Climbs
 ---
 
 {% include challenges.html %}
