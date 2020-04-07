@@ -2,6 +2,6 @@
 title: Wattkopf - Kategorie 3 Climbs
 ---
 
-{% include challenge.html %}
+{% include challenges.html %}
 
 This is the content of my page
