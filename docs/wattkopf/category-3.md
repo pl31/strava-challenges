@@ -5,8 +5,4 @@ data:
   segments: [ 14876347, 14876135 ]
 ---
 
-Vorher
-
 {% include challenges.html %}
-
-Nachher
