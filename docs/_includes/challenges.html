@@ -1,1 +1,5 @@
 {{ page.data.description }}
+
+{% for segment in page.data.segments %}
+  <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/{{ segment }}/embed'></iframe>
+{% endfor %}
