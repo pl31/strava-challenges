@@ -20,7 +20,7 @@ stravaChallenges.iframeReady = function(index, element) {
         //var leaderboard_table_overall = $(leaderboard_tables).eq(1);
         //var leaderboard_table_women = $(leaderboard_tables).eq(2);
         
-        var iframes = $("iframes");
+        var iframes = $("iframe");
     }
 }
 
