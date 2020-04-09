@@ -17,8 +17,8 @@ stravaChallenges.iframeReady = function(index, element) {
     if (stravaChallenges.data.segments_loaded == stravaChallenges.data.segments_count) {
         // get leaderboard tables
         var leaderboard_tables = $(element).find("div.leaderboards table");
-        var leaderboard_table_overall = $(leaderboard_tables).eq(1);
-        var leaderboard_table_women = $(leaderboard_tables).eq(2);
+        //var leaderboard_table_overall = $(leaderboard_tables).eq(1);
+        //var leaderboard_table_women = $(leaderboard_tables).eq(2);
         
         var iframes = $("iframes");
     }
