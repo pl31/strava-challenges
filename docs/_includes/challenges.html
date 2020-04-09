@@ -4,13 +4,5 @@
   <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/{{ segment }}/embed'></iframe>
 {% endfor %}
 
-<script>{% include jquery-3.4.1.min.js %}</script>
-<script>$(function() {
-    $("iframe").each(function(index, element) {
-        $(element).on("load",function() {
-          console.log("iframe loaded");
-        });
-    });
-});</script>
-
-{{ scripts }}
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/strava-challenges.js"></script>
