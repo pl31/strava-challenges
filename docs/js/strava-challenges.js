@@ -1,11 +1,11 @@
 var stravaChallenges = stravaChallenges || {};
 stravaChallenges.data = {};
 
-stravaChallenges.updateUI = () {
+stravaChallenges.updateUI = function() {
 
 }
 
-stravaChallenges.iframeReady = (index, element) {
+stravaChallenges.iframeReady = function(index, element) {
     stravaChallenges.data.segments_loaded++;
 }
 
