@@ -28,6 +28,6 @@ $(function() {
     
     // ready event handler for all iframes 
     iframes.each(function(index, element) {
-        $(element).ready(function() { stravaChallenges.iframeReady(index, element); });
+        $(element).on("load", function() { stravaChallenges.iframeReady(index, element); });
     });
 });
