@@ -14,8 +14,7 @@ stravaChallenges.iframeReady = function(index, element) {
     // increment loaded segments
     stravaChallenges.data.segments_loaded++;
     // get leaderboard tables
-    var leaderboard_overall = $(element)("div.leaderboards");
-    var leaderboard_women = $(element)("div.leaderboards");
+    var leaderboards = $(element)("div.leaderboards table");
 }
 
 // start point ("ready" method)
