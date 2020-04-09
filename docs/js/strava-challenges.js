@@ -1,9 +1,9 @@
 var stravaChallenges = stravaChallenges || {};
 stravaChallenges.data = {
-    segments_count = null,
-    segments_loaded = 0,
-    leaderboards_overall = [],
-    leaderboards_women = []
+    segments_count: null,
+    segments_loaded: 0,
+    leaderboards_overall: [],
+    leaderboards_women: []
 };
 
 stravaChallenges.updateUI = function() {
