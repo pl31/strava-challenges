@@ -5,7 +5,7 @@ stravaChallenges.updateUI = () {
 
 }
 
-stravaChallenges.iframeReady = (element) {
+stravaChallenges.iframeReady = (index, element) {
     stravaChallenges.data.segments_loaded++;
 }
 
@@ -19,6 +19,6 @@ $(function() {
     
     // ready event handler for all iframes 
     iframes.each(function(index, element) {
-        $(element).ready(stravaChallenges.iframeReady);
+        $(element).ready(function() { stravaChallenges.iframeReady(index, element); });
     });
 });
