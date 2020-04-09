@@ -11,7 +11,11 @@ stravaChallenges.updateUI = function() {
 }
 
 stravaChallenges.iframeReady = function(index, element) {
+    // increment loaded segments
     stravaChallenges.data.segments_loaded++;
+    // get leaderboard tables
+    var leaderboard_overall = $(element)(".leaderboards > table:first");
+    var leaderboard_women = $(element)(".leaderboards > table:last");
 }
 
 // start point ("ready" method)
