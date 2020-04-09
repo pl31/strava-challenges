@@ -1,5 +1,10 @@
 var stravaChallenges = stravaChallenges || {};
-stravaChallenges.data = {};
+stravaChallenges.data = {
+    segments_count = null,
+    segments_loaded = 0,
+    leaderboards_overall = [],
+    leaderboards_women = []
+};
 
 stravaChallenges.updateUI = function() {
 
@@ -15,7 +20,6 @@ $(function() {
     var iframes = $("iframe");
     // initialize counter
     stravaChallenges.data.segments_count = iframes.length;
-    stravaChallenges.data.segments_loaded = 0;
     
     // ready event handler for all iframes 
     iframes.each(function(index, element) {
