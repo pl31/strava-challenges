@@ -3,7 +3,6 @@ title: Wattkopf - SMUH
 data:
   description: Stommasten Uphill
   segments: 
-  - 15335158
   - 14876135
   - 15873702
   - 14876077
