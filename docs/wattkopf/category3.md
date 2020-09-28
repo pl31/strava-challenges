@@ -1,6 +1,5 @@
 ---
 title: Wattkopf - Kategorie 3 Anstiege
-description: [home]({{ site.baseurl }})
 data:
   description: Kategorie 3 Anstiege
   segments: 
