@@ -1,5 +1,5 @@
 ---
-title: Wattkopf - E-Bike
+title: Wattkopf - Beat the E-Bike
 data:
   description: Segments which seem to have E-Bike KOMs
   segments: 
