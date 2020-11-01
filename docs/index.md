@@ -1,3 +1,5 @@
+A list of my favorite segments around Karlsruhe.
+
 {% assign sorted_pages = site.pages | sort: 'url'  %}
 
 {% for page in sorted_pages %}
