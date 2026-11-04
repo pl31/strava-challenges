@@ -4,7 +4,6 @@ data:
   description: Segments which seem to have E-Bike KOMs
   segments: 
   - 14965452
-  - 14876135
   - 15047630
   - 2143929
   - 21018564
